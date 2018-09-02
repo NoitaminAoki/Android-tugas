@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/DefaultLayout"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView style="@style/LabelHeader"
+            android:text="Sign Up"
+            android:gravity="center"
+            android:layout_margin="7dp"/>
+
+        <EditText style="@style/EditText"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_margin="7dp"
+            android:id="@+id/txt_email"/>
+
+        <EditText style="@style/EditText"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_margin="7dp"
+            android:id="@+id/txt_password"/>
+
+        <EditText style="@style/EditText"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:layout_margin="7dp"
+            android:id="@+id/txt_repassword"/>
+
+        <EditText style="@style/EditText"
+            android:hint="Fullname"
+            android:inputType="textPersonName"
+            android:layout_margin="7dp"
+            android:id="@+id/txt_fullname"/>
+
+        <EditText style="@style/EditText"
+            android:hint="Date"
+            android:inputType="date"
+            android:layout_margin="7dp"
+            android:id="@+id/txt_birth"/>
+
+        <EditText style="@style/EditText"
+            android:hint="Phone"
+            android:inputType="number"
+            android:layout_margin="7dp"
+            android:id="@+id/txt_phone"/>
+
+        <Button style="@style/Button"
+            android:text="Submit"
+            android:layout_margin="7dp"
+            android:onClick="submitSignUp"
+            android:id="@+id/btn_signup"/>
+
+    </LinearLayout>
+
+</LinearLayout>

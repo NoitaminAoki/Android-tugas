@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tugas</string>
+    <string name="signup_u"><u>Sign Up</u></string>
+    <string name="forgotp_u"><u>Forgot Password</u></string>
+</resources>
